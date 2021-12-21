@@ -1,0 +1,12 @@
+// mixins help to keep our code DRY.
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin for-big-desktop-up {
+  @media (min-width: 1600px) {
+    @content;
+  }
+}

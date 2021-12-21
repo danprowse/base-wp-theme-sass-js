@@ -1,0 +1,21 @@
+{
+  "name": "base-wp-sass-js",
+  "version": "1.0.0",
+  "description": "Base files and folder structure for creating a WordPress theme using SASS and JS",
+  "main": "index.js",
+  "scripts": {
+    "watch": "mix watch",
+    "build": "mix",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production npm run build"
+  },
+  "author": "Dan Prowse",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "laravel-mix": "^6.0.39",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.43.5",
+    "sass-loader": "^12.1.0"
+  }
+}
